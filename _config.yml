@@ -1,0 +1,10 @@
+# Site settings
+title: New Jekyll Site
+# email: email@email.com
+description: "By Tom DeForest"
+# baseurl: ""
+# url: "http://tomdeforest.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: none
