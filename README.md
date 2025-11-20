@@ -6,7 +6,7 @@ A minimal scaffolding project for running Jekyll sites locally using Docker, des
 
 This project provides a quick-start template for Jekyll-based GitHub Pages sites. It uses Docker to ensure a consistent development environment without requiring local Jekyll/Ruby installation.
 
-## Prerequisites
+## Dependencies
 
 - [Docker](https://www.docker.com/get-started) (includes Docker Compose V2)
 
@@ -61,16 +61,6 @@ Edit `_config.yml` to customize your site:
 - Permalink style: none
 - Server port: 4000
 
-## Adding Content
-
-To add content to your Jekyll site:
-
-1. Create an `index.md` or `index.html` file in the root directory for your homepage
-2. Add pages in the root directory or organize them in folders
-3. Create a `_posts` directory for blog posts (format: `YYYY-MM-DD-title.md`)
-4. Add layouts in `_layouts` directory
-5. Add reusable components in `_includes` directory
-
 ## Deployment to GitHub Pages
 
 1. **Configure your repository**
@@ -105,12 +95,6 @@ The following directories are auto-generated and ignored by git:
   docker compose down
   docker compose up --build
   ```
-
-## Troubleshooting
-
-- **Port already in use**: If port 4000 is taken, modify the `ports` section in `docker-compose.yml`
-- **Permission issues**: On Linux, you may need to run Docker commands with `sudo`
-- **Changes not appearing**: Hard refresh your browser (`Ctrl+F5`) or clear the browser cache
 
 ## Resources
 
