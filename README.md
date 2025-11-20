@@ -8,8 +8,7 @@ This project provides a quick-start template for Jekyll-based GitHub Pages sites
 
 ## Prerequisites
 
-- [Docker](https://www.docker.com/get-started)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker](https://www.docker.com/get-started) (includes Docker Compose V2)
 
 ## Quick Start
 
@@ -21,7 +20,7 @@ This project provides a quick-start template for Jekyll-based GitHub Pages sites
 
 2. **Start the Jekyll server**
    ```bash
-   docker-compose up
+   docker compose up
    ```
 
 3. **View your site**
@@ -32,7 +31,7 @@ This project provides a quick-start template for Jekyll-based GitHub Pages sites
 
    Press `Ctrl+C` in the terminal, or run:
    ```bash
-   docker-compose down
+   docker compose down
    ```
 
 ## Project Structure
@@ -103,8 +102,8 @@ The following directories are auto-generated and ignored by git:
 - **Rebuild the site**: Changes to most files are auto-detected, but restart the server after modifying `_config.yml`
 - **Clean build**: Remove the containers and rebuild
   ```bash
-  docker-compose down
-  docker-compose up --build
+  docker compose down
+  docker compose up --build
   ```
 
 ## Troubleshooting
